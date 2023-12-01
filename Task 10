@@ -1,0 +1,18 @@
+public class TestBookConstructor {
+    public static void main(String[] args) {
+        // Instantiate three Book objects with different values using the constructor
+        Book book1 = new Book("The Great Gatsby", "F. Scott Fitzgerald", 1925, 15.99);
+        Book book2 = new Book("To Kill a Mockingbird", "Harper Lee", 1960, 12.50);
+        Book book3 = new Book("1984", "George Orwell", 1949, 9.99);
+
+        // Print out the details of each book using System.out.println()
+        System.out.println("Book 1: " + book1.getTitle() + " by " + book1.getAuthor() +
+                ", Published in " + book1.getYearPublished() + ", Price: $" + book1.getPrice());
+
+        System.out.println("Book 2: " + book2.getTitle() + " by " + book2.getAuthor() +
+                ", Published in " + book2.getYearPublished() + ", Price: $" + book2.getPrice());
+
+        System.out.println("Book 3: " + book3.getTitle() + " by " + book3.getAuthor() +
+                ", Published in " + book3.getYearPublished() + ", Price: $" + book3.getPrice());
+    }
+}
